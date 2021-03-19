@@ -20,11 +20,20 @@ navbar {
   top: 40%;
   z-index: 1;
 }
-.caption h3 {
-  color: aliceblue;
-  font-size: 2.4rem;
+.caption h3  {
+  color: rgb(109, 14, 3);
+  font-size: 1.2rem;
   text-transform: uppercase;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  margin: 0px, 0px, 6px, -30px;
+  padding: 0px, 0px, 0px, 80px;
+
+
+}
+
+
+h1 {
+  color: aliceblue;
 }
 .btn {
   border-width: medium;
@@ -50,6 +59,7 @@ no.padding .col-md-6 {
 }
 .card {
   margin: 2rem;
+  
 }
 .footer .row {
   background-color: #505962;
@@ -61,6 +71,11 @@ no.padding .col-md-6 {
   height: 2rem;
   margin: 1.5rem 0;
   justify-content: center;
+}
+
+.text-cente {
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 
@@ -97,3 +112,9 @@ no.padding .col-md-6 {
           transform: translateZ(0);
   will-change: transform;
 }
+
+
+
+
+
+
