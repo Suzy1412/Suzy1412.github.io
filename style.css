@@ -21,19 +21,26 @@ navbar {
   z-index: 1;
 }
 .caption h3  {
-  color: rgb(109, 14, 3);
+  color: rgb(244, 30, 7);
   font-size: 1.5rem;
   text-transform: uppercase;
-  padding-bottom: 1rem;
-
-
+  
+  
 
 }
 
 h1 {
   color: aliceblue;
+  padding-bottom: 1rem;
 }
+
+h5 {
+  color: rgb(244, 30, 7);
+  text-transform: uppercase;
+}
+
 .btn {
+  color: rgb(244, 30, 7);
   border-width: medium;
   border-radius: 0;
   text-transform: uppercase;
@@ -109,6 +116,33 @@ no.padding .col-md-6 {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: white;
+  color: black;
+}
+.fa-envelope-open{
+  background: #007bb5;
+  color: white;
 }
 
 
